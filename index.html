@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+	
+
+
 <head>
 
   <meta charset="UTF-8">
@@ -9,11 +14,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-dawesome.min.css"/>
   <link href="/assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway|Aldrich|Graduate|Arizonia" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-   <script type="text/javascript" src="script.js"></script>
-   <link rel = "stylesheet" type = "text/css" href = "style.css">
-
-<script type="text/javascript">
+  <script type="text/javascript">
    (function(){
       emailjs.init("user_abMqLbeQM7rT5Et9JoUdY");
    })();
@@ -175,7 +178,7 @@
          <label class="label" for="name">Name</label>
       </div>
       <div class="form-field col x-50">
-         <input id="email" class="input-text js-input" type="email" required>
+         <input name="from_email" id="email" class="input-text js-input" type="email" required>
          <label class="label" for="email">E-mail</label>
       </div>
       <div class="form-field col x-100">
@@ -260,6 +263,11 @@
     });
 
   </script>
+  
+    <script type="text/javascript" src="script.js"></script>
+
 
 
 </body>
+
+</html>
