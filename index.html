@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	
+
+
+<head>
+
+  <meta charset="UTF-8">
+  <title> Portfolio </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-dawesome.min.css"/>
+  <link href="/assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=|Open+Sans+Condensed:300|Vollkorn|Lobster|Raleway|Aldrich|Graduate|Arizonia" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init("user_abMqLbeQM7rT5Et9JoUdY");
+   })();
+</script>
+</head>
+
+<body>
+
+
+  <div class="sect container-fluid">
+
+    <div class="row">
+      <div class="clock-column col-md-6 visible-md visible-lg">
+
+        <div class="clock">
+          <div class="clock-face">
+            <div class="hand hour-hand"></div>
+            <div class="hand min-hand"></div>
+            <div class="hand second-hand">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-6 col-sm-12 right">
+        <h1 class="pull-right">It's time</h1>
+        <h4 id="type-text" class="pull-right text-center">
+         
+        </h4>
+        <h4 class="pull-right" id="type-text2">
+           
+         </h4>
+        <h2 class="text-center logo">LMD Web Dev</h2>
+
+      </div>
+    </div>
+  </div>
+
+<div id="wrap" style="opacity: 1;">
+    
+            
+            <section class="h1-intro sectionMargin1 bottomMargin">
+				<h1>Hi, I’m Logan,  <br>I make the internet look nice <br>and do things</h1>
+            </section>
+            
+            <section class="skills overflowHidden">
+                <h2 class="upperCase">What can I do for you?</h2>
+                <div class="table">
+                    <div class="intro-b cl3">
+                            <img src="https://s3.amazonaws.com/js30-cdn/small4.jpg" alt="" class="bw-pic picture img-responsive center-block">
+                        <h3 class="letterSpacingMID upperCase">Javascript</h3>
+                            <span class="horizontal-line"></span>
+                        <p class="letterSpacingSMALL">Have a look at some of my Javascipt projects and apps.</p>
+                    </div>
+                    <div class="intro-b cl3">
+
+                    </div> 
+                    <div class="intro-b cl3">
+                        <img src="http://res.cloudinary.com/lcmd/image/upload/v1504234425/DNAdesign.png" class="picture bw-pic img-responsive center-block" alt="story telling">
+                        <h3 class="letterSpacingMID upperCase">Web Design</h3>
+                        <span class="horizontal-line"></span>
+                        <p class="letterSpacingSMALL">Need a custom site for your business?</p>
+                    </div>
+
+                    
+                    
+                    
+                </div>
+            </section>
+            
+                        
+            
+        </div>
+
+
+
+<div id="projects" class="section__videos">
+  <div class="section__inner">
+    <h2 class="title text-center">Javascript</h2>
+
+    <ul id= "projectList" class="video-list">
+             <li class="video-list__item">
+            <a id="flex" ><div data-modal="flex-modal" class="video-list__image"><img src="http://res.cloudinary.com/lcmd/image/upload/v1504322834/JS%20Flex%20Box.png" alt="">
+            </a>
+            </div>
+          </li>
+           <li class="video-list__item">
+             <div data-modal="clock-modal" class="video-list__image"><img src="https://s3.amazonaws.com/js30-cdn/small1.jpg" alt="CSS + JS Clock"> 
+            </div>
+            </li>
+            
+          <li class="video-list__item">
+            <div data-modal="cities-modal" class="video-list__image"><img src="http://res.cloudinary.com/lcmd/image/upload/v1504426852/JS%20City%20List.png" alt="Playing with CSS Variables and JS">
+            </div>
+        
+      </li>
+
+          
+      
+    </ul>
+    </a>
+    
+  </div>
+  
+</div>
+
+
+
+<div id="flex-modal" class="modal" data-modal="flex-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+        <span class="closeBtn">&times;</span>  
+       <h2 class="header-text">CSS and Javascript Clock</h2>   
+        </div>
+        <div class="modal-body">
+          <h3>The clock face and hands are made from div elements, and a javascript function runs every second to calculate the local time and update the DOM. The animation is done using CSS.</h3>
+          
+        </div>
+        </div>
+        </div>
+<div id="clock-modal" class="modal" data-modal="clock-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+        <span class="closeBtn">&times;</span>  
+       <h2 class="header-text">CSS and Javascript Clock</h2>   
+        </div>
+        <div class="modal-body">
+          <h3>The clock face and hands are made from div elements, and a javascript function runs every second to calculate the local time and update the DOM. The animation is done using CSS.</h3>
+          
+        </div>
+
+
+    <div class="m-clock">
+      <div class="m-clock-face">
+        <div class="m-hand m-hour-hand"></div>
+        <div class="m-hand m-min-hand"></div>
+        <div class="m-hand m-second-hand"></div>
+      </div>
+    </div>
+        
+        
+      </div>
+      
+      
+    </div>
+    <div id="cities-modal" class="modal" data-modal="cities-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+        <span class="closeBtn">&times;</span>  
+       <h2 class="header-text">AJAX City names</h2>   
+        </div>
+        <div class="modal-body">
+          <h3>The clock face and hands are made from div elements, and a javascript function runs every second to calculate the local time and update the DOM. The animation is done using CSS.</h3>
+        </div>
+        </div>
+        </div>
+
+
+<div id="" class="section__videos design">
+  <div class="section__inner">
+
+      <h2 class="title text-center">Design</h2>
+          <ul id= "projectList" class="video-list">
+
+      <li class="video-list__item">
+            <a href="DNA/dna.html"> <div class="video-list__image"><img src="http://res.cloudinary.com/lcmd/image/upload/v1504428898/DNApage.png" alt="Array Cardio Day 1">
+            </div></a>
+          </li>
+        </div>
+        </div>
+<div class="container-fluid contact" id="contact">
+  <section class="get-in-touch">
+   <h1 class="title">Get in touch</h1>
+   <form id="myform" class="contact-form rowCon">
+      <div class="form-field col x-50">
+         <input name="from_name" id="name" class="input-text js-input" type="text" required>
+         <label class="label" for="name">Name</label>
+      </div>
+      <div class="form-field col x-50">
+         <input name="from_email" id="email" class="input-text js-input" type="email" required>
+         <label class="label" for="email">E-mail</label>
+      </div>
+      <div class="form-field col x-100">
+         <input id="message" class="input-text js-input" type="text" name="message_html" required>
+         <label class="label" for="message">Message</label>
+      </div>
+      <div class="form-field col x-100 align-center">
+         <button class="submit-btn" type="submit" value="Submit">Send</button>
+      </div>
+   </form>
+   
+
+    
+    
+
+</section>
+
+<div id="confirmed" class="modal" data-modal="flex-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+        <span class="closeBtn">&times;</span>  
+       <h2 class="header-text text-center">Thanks for the message!</h2>   
+        </div>
+        <div class="modal-body text center">
+          <h3>I look forward to working with you, and I will get back to you soon! </br> -Logan</h3>
+          
+        </div>
+        </div>
+        </div>
+
+
+
+      <footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+          <a href="#">Projects</a>
+          .
+					<a href="#">Blog</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+
+				<p>LMD Web Dev © 2017</p>
+			</div>
+
+		</footer>
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
+    
+    window.sr = ScrollReveal();
+    sr.reveal(".clock", {
+      duration: 2000,
+      origin: "top",
+      distance: "400px"
+    });
+    sr.reveal(".right h1", {
+      duration: 1500,
+      origin: "bottom",
+      distance: "400px"
+    });
+    sr.reveal(".clock", {
+      duration: 2000,
+      origin: "top",
+      distance: "400px"
+    });
+    sr.reveal(".right h2", {
+      duration: 1000,
+      origin: "right",
+      distance: "400px"
+    });
+      sr.reveal(".h1-intro", {
+      duration: 2000,
+      origin: "top",
+      distance: "400px"
+    });
+
+  </script>
+  
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="Projects/Clock/clock.js"></script>
+    <script type="text/javascript" src="Projects/Cities/cities.js"></script>
+
+
+</body>
+
+</html>

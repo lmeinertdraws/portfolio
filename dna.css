@@ -1,0 +1,295 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  font-family: Raleway;
+}
+
+.title {
+  font-size: 5em;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-family: Raleway;
+  
+  
+}
+
+.text {
+  font-family: Raleway;
+  font-size: 2em;
+  line-height: 150%;
+}
+
+
+.about .text {
+  padding-bottom: 40px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  font-family: Aldrich;
+  padding-right: 10px;
+}
+
+.navbar-nav>li>a {
+  color: white !important;
+}
+
+.navbar {
+  transition: background-color 2s ease-in-out;
+  color: white;
+  border-color: transparent !important;
+}
+
+.active a {
+  background-color: green !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: white !important;
+    color: black !important;
+}
+
+.sect {
+  background-attachment: fixed;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://vietnamfriendship.vn/data/data/minhphuong/15726574_1358728830845451_7073384224583781080_n.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fade-in {
+  padding-top: 160px;
+}
+
+#fade-in h1.first {
+  opacity: 0;
+  text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+  font-size: 7em;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-family: Raleway;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+
+#fade-in h1.second {
+  opacity: 0;
+  text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+  font-size: 7em;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-family: Raleway;
+  -webkit-transition: opacity 6s ease-in;
+  -moz-transition: opacity 6s ease-in;
+  -o-transition: opacity 6s ease-in;
+  -ms-transition: opacity 6s ease-in;
+  transition: opacity 6s ease-in;
+}
+
+#fade-in h3 {
+  opacity: 0;
+  text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+  font-size: 3em;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-family: Raleway;
+  -webkit-transition: opacity 8s ease-in;
+  -moz-transition: opacity 8s ease-in;
+  -o-transition: opacity 8s ease-in;
+  -ms-transition: opacity 8s ease-in;
+  transition: opacity 8s ease-in;
+}
+
+#fade-in h1.load {
+  opacity: 1;
+}
+
+#fade-in h3.load {
+  opacity: 1;
+}
+
+.about {
+  background-color: black;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-family: Raleway;
+  height: 50%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+ }
+ 
+ .aboutText {
+   padding: 40px;
+ }
+ 
+.learn {
+  font-family: Raleway;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+
+.learn:hover {
+  border: black;
+  color: white;
+  text-decoration: none;
+}
+
+.experience {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(http://image.english.vov.vn/h500/uploaded/o6gej4c09fi/2016_06_01/B_1_JTTR.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
+}
+
+.centered h3 {
+  font-size: 2em;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-family: Raleway;
+  padding-top: 100px;
+  line-height: 150%;
+}
+ 
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.caption {
+  position: absolute;
+  left: 22px;
+  bottom: 10px;
+  letter-spacing: 0.1em;
+  color: white;
+  font-weight: 100;
+  font-family: Aldrich;
+}
+
+.box:hover .caption {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+
+
+.fade {  
+    font-family: Aldrich;
+    font-size: .5em;
+    background-color: rgba(0,0,0,0.8);  
+    position: absolute;
+    display: block;
+    color: #fff;
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+    opacity: 0; 
+    bottom: 0;
+    width: 100%;  
+    height: 50%;  
+    text-align: left;  
+    padding: 0px;
+}  
+
+.popup {
+  font-family: Aldrich;
+}
+
+ .box:hover .fade-caption {  
+    opacity: 1;  
+   
+}
+.sectTwo {
+  color: white;
+  background-attachment: fixed;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://image.english.vov.vn/h500/uploaded/o6gej4c09fi/2016_06_01/B_16_NXFW.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-content {
+  padding: 40px;
+}
+
+.section-header {
+  letter-spacing: .1em;
+  font-weight: 100;
+  font-size: 5em;
+  
+}
+
+.heading {
+  padding-top: 400px;
+  color: white;
+  letter-spacing: .1em;
+  font-weight: 100;
+  font-family: Raleway;
+  }
+
+.heading h1 {
+  font-size: 7em;
+}
+
+.heading h2 {
+  font-size: 6em;
+}
+
+@media (max-width: 600px) {
+  #fade-in {
+    padding-top: 0px;
+  }
+  .subSect {
+    height: 75%;
+  }
+
+  .wrap {
+    max-height: 700px;
+    max-width: 700px;
+    display: block;
+    margin: 50px;
+    
+    
+  }
+  .tours {
+      height: 250%;
+  }
+  .sectTwo {
+    height: 125%;
+  }
+  
+}
+
+
+
+
